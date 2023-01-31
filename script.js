@@ -1,3 +1,5 @@
+document.getElementById("refreshButton").addEventListener("click", siteCheck);
+
 function siteCheck() {
   if (document.URL.includes("lichess.org")) {
     document.getElementById("sitename").innerHTML = Lichess.org;
