@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Visual Chess Ranking [WIP]",
+  "name": "[WIP] Visual Chess Ranking",
   "description": "A simple extension which will create a visual ranking for chess sites",
   "version": "0.1",
   "action": {
