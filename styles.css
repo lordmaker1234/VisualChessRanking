@@ -6,10 +6,17 @@ body {
 .popup-main {
   background-color: #141414;
   height: 400px;
-  width: 250px;
+  width: 350px;
 }
 
 h1 {
   color: #ffffff;
-  width: 90%;
+  text-size-adjust: auto;
+  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+  text-size-adjust: 50%;
+  text-align: center;
 }
