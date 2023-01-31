@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .popup-main {
   background-color: #141414;
   height: 400px;
