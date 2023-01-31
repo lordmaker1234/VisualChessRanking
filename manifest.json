@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Visual Chess Ranking [WIP]",
+  "description": "A simple extension which will create a visual ranking for chess sites",
+  "version": "0.1",
+  "action": {
+    "default_popup": "VCR-popup.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
