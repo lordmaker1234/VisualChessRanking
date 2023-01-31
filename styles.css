@@ -20,3 +20,7 @@ h2 {
   text-size-adjust: 50%;
   text-align: center;
 }
+
+#refeshButon {
+  float: right;
+}
