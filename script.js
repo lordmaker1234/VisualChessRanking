@@ -10,8 +10,10 @@ let url = chrome.tabs.query(
 function siteCheck() {
   if (/lichess.org/.test(url)) {
     //Unable to get the script to properly detect the page
+    document.getElementById("currentlyPlaying").style.display = "block";
     document.getElementById("sitename").innerHTML = "Lichess.org";
   } else if (/chess.com/.test(url)) {
+    document.getElementById("currentlyPlaying").style.display = "block";
     document.getElementById("sitename").innerHTML = "Chess.com";
   } else {
     document.getElementById("currentlyPlaying").style.display = "none";
