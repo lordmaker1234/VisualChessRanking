@@ -3,8 +3,12 @@
   "name": "[WIP] Visual Chess Ranking",
   "description": "A simple extension which will create a visual ranking for chess sites",
   "version": "0.1",
+  "permissions": [ 
+   "tabs"
+],
   "action": {
     "default_popup": "VCR-popup.html",
     "default_icon": "chessIcon-TEMP.png"
   }
+  
 }
